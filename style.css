@@ -321,6 +321,9 @@ header label:active{
         justify-content: center;     
         align-items: center;  
     }
+    .container {
+        width: 95%;
+    }
     .history-container {
         padding: 0.5em;
         border-radius:0.5em;
