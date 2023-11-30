@@ -323,14 +323,18 @@ header label:active{
     }
     .container {
         width: 95%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .history-container {
         padding: 0.5em;
         border-radius:0.5em;
-        width: 75vw;
+        width: 95vw;
         max-height: 90vh;
         margin-bottom: 5em;
-}
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     nav ul {
         display: none;
     }
