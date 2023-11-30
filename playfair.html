@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icon link  -->
+    <link rel="shortcut icon" href="easystreet-removebg-preview.png" type="image/x-icon">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>playfair/Cryptography</title>
+
+
+
+    <!-- google font   -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <input type="radio" name="menuIcon" id="checked">
+    <input type="radio" name="menuIcon" id="close">
+
+
+    <header>
+        <nav>
+             <h2>easy<span class="colored">Street!</span> </h2>
+            <ul>
+                <li><a href="index.html">caesarCipher</a></li>
+                <li><a href="#"  id="currentLink">playfairCipher</a></li>
+                <li><a href="vigenere.html">vigenereCipher</a></li>
+            </ul>
+
+            <label for="checked">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </label>
+        </nav>
+
+        <div class="menuItems">
+        
+            <div class="topSide">
+        
+                <h2>MENU</h2>
+                <label for="close">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+        
+                </label>
+            </div>
+        
+        
+            <ul>
+                <li><a href="#" id="currentLink">caesarCipher</a></li>
+                <li><a href="playfair.html">playfairCipher</a></li>
+                <li><a href="vigenere.html">vigenereCipher</a></li>
+                <li><a href="#history">history</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container" id="container1">
+            <div id="caesarCipherSection" class="main-content">
+                <h1>PlayFair Cipher</h1>
+                <div class="chooseMode">
+                   <button title="Change mode" onclick="changeModeDe()">Change Mode</button>                 
+                </div>
+                <div class="input-container">
+                    <label for="plainText" class="lable1">Enter Plain Text:</label>
+                    <textarea type="text" name="" id="plainText" cols="30" rows="10" placeholder="Enter your text to Encrypt" ></textarea>
+                  <!-- //  <input  id="" required> -->
+                </div>
+                <div class="input-container">
+                    <label for="key" class="lable1">Enter Key:</label>
+                    <input type="text" id="key" placeholder="Enter your key" required>
+                </div>
+                <button onclick="encrypted()">Encrypt</button>
+                <div class="result-container">
+                    <label for="cipherText">Cipher Text:</label>
+                    <textarea id="cipherText" placeholder="Your Cipher will appaer here!"></textarea>
+                </div>
+            </div>
+            
+        </div>
+        <aside class="history-container">
+               <div class="historyTitle">
+                <h2>History <span class="material-symbols-outlined">
+                history
+                </span></h2>
+                <button onclick="clearhistory()" id="clearCipherHistory">Clear</button>
+            </div> 
+                <ul id="historyList"></ul>
+        </aside>
+
+    </main>    
+    <script src="playfair.js"></script>
+</body>
+</html>
