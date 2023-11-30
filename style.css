@@ -326,6 +326,16 @@ header label:active{
         right: -100vw;
         height: 100vh;
     }
+    
+    .chooseMode{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 2em;
+        top: 4.5em;
+
+    }
+    
 
 
 }
