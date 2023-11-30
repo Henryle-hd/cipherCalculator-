@@ -76,6 +76,7 @@ a {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
+    gap: 3em;
     
 }
 
@@ -311,7 +312,7 @@ header label:active{
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:900px) {
     .main{
         display: flex;
         flex-direction: column; 
@@ -323,7 +324,11 @@ header label:active{
         border-radius:0.5em;
         width: 75vw;
         max-height: 90vh;
-    }
+        -webkit-border-radius:0.5em;
+        -moz-border-radius:0.5em;
+        -ms-border-radius:0.5em;
+        -o-border-radius:0.5em;
+}
     nav ul {
         display: none;
     }
