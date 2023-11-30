@@ -95,8 +95,6 @@ a {
     position: relative;
     color: #dadff7;
     font-family: 'Arial', sans-serif;
-    margin-left: 5px;
-    margin-right: 10px;
 }
 
 
@@ -322,19 +320,18 @@ header label:active{
         align-items: center;  
     }
     .container {
-        width: 95%;
-        margin-left: 5px;
-        margin-right: 5px;
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
     }
     .history-container {
         padding: 0.5em;
         border-radius:0.5em;
-        width: 95vw;
+        width: 85vw;
         max-height: 90vh;
-        margin-bottom: 5em;
         margin-left: 5px;
         margin-right: 5px;
-    }
+}
     nav ul {
         display: none;
     }
