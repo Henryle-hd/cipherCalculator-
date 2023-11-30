@@ -329,7 +329,7 @@ header label:active{
     .history-container {
         padding: 0.5em;
         border-radius:0.5em;
-        width: 90vw;
+        width: 85vw;
         max-height: 90vh;
         margin-left: 5px;
         margin-right: 5px;
@@ -339,7 +339,7 @@ header label:active{
         display: none;
     }
     .menuItems{
-        width: 78vw;
+        width: 85vw;
         right: -100vw;
         height: 100vh;
     }
