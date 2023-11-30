@@ -61,6 +61,12 @@ a {
     transition: all 0.8s ease;
 }
 
+#currentLink1{
+    color: #45a049;
+    text-decoration: underline 5px ;
+    transition: all 0.8s ease;
+}
+
 /* Hide other sections by default */
 .hidden-section {
     display: none;
@@ -338,6 +344,15 @@ header label:active{
     
 
 
+}
+
+
+@media screen and (max-width:780px) {
+      .menuItems{
+        width: 100vw;
+        right: -100vw;
+        height: 100vh;
+    }
 }
 /* 
 //@media only screen and (max-width: 768px) */
