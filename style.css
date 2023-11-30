@@ -76,7 +76,7 @@ a {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    gap: 3em;
+    
     
 }
 
@@ -95,6 +95,8 @@ a {
     position: relative;
     color: #dadff7;
     font-family: 'Arial', sans-serif;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 
@@ -324,10 +326,7 @@ header label:active{
         border-radius:0.5em;
         width: 75vw;
         max-height: 90vh;
-        -webkit-border-radius:0.5em;
-        -moz-border-radius:0.5em;
-        -ms-border-radius:0.5em;
-        -o-border-radius:0.5em;
+        margin-bottom: 10em;
 }
     nav ul {
         display: none;
