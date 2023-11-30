@@ -189,7 +189,7 @@ function changeModeDe() {
             <div id="caesarCipherSection" class="main-content">
                 <h1>Vigenere Cipher</h1>
                 <div class="chooseMode">
-                   <button title="Change mode" onclick="changeModeEn()">Change Mode</button>                 
+                   <button title="Change mode" onclick="changeModeEn()">Mode</button>                 
                 </div>
                 <div class="input-container">
                     <label for="plainText" class="lable1">Enter Cipher Text:</label>
@@ -217,7 +217,7 @@ function changeModeEn() {
  <div id="caesarCipherSection" class="main-content">
                 <h1>Vigenere Cipher</h1>
                 <div class="chooseMode">
-                   <button title="Change mode" onclick="changeModeDe()">Change Mode</button>                 
+                   <button title="Change mode" onclick="changeModeDe()">Mode</button>                 
                 </div>
                 <div class="input-container">
                     <label for="plainText" class="lable1">Enter Plain Text:</label>
