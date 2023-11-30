@@ -331,8 +331,8 @@ header label:active{
         border-radius:0.5em;
         width: 85vw;
         max-height: 90vh;
-        margin-left: 5px;
-        margin-right: 5px;
+        /* margin-left: 5px;
+        margin-right: 5px; */
         margin-bottom: 3em;
 }
     nav ul {
