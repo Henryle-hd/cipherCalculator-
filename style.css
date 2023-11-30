@@ -76,6 +76,7 @@ a {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
+    gap: 2em;
     
     
 }
@@ -331,6 +332,7 @@ header label:active{
         max-height: 90vh;
         margin-left: 5px;
         margin-right: 5px;
+        margin-bottom: 5em;
 }
     nav ul {
         display: none;
