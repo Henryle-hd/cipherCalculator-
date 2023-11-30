@@ -55,17 +55,17 @@ a {
     /* text-transform: uppercase; */
      font-family: 'Arial', sans-serif;
 }
-#currentLink{
+.currentLink{
     color: #45a049;
     text-decoration: underline 5px ;
     transition: all 0.8s ease;
 }
 
-#currentLink1{
+/* #currentLink1{
     color: #45a049;
     text-decoration: underline 5px ;
     transition: all 0.8s ease;
-}
+} */
 
 /* Hide other sections by default */
 .hidden-section {
