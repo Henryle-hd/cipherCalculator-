@@ -399,12 +399,6 @@ footer a{
     footer a{
     width: 3%;
     height: 3vh;
-    background-color: #45a049b4;
-    padding: .2em;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
     
 
@@ -418,6 +412,13 @@ footer a{
         right: -100vw;
         height: 100vh;
     }
+        footer a{
+    width: 4%;
+    height: 2.4vh;
+}
+footer a{
+    padding: .1em;
+}
 }
 /* 
 //@media only screen and (max-width: 768px) */
