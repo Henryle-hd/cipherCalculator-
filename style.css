@@ -314,67 +314,25 @@ header label:active{
 }
 
 .footer{
-    position: relative;
     background-color: #202229;
+    position: relative;
     bottom: -1em;
-}
-.allMainBox{ 
-    display: flex;
-    
-    flex-direction: row-reverse;
-    color: #dadff7;
-    
-}
-footer h2{
-    text-align: center;
-}
-footer textarea{
-    height: 12vh;
-}
-.otherLink{ 
-    width: 30vw;
-    
-}
-.otherLink ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    list-style: none;
 }
-.otherLink a{
-    text-align: center;
+.inner{
+width: 85vw;
 }
 
-.hiddenFooter{
-    width: 30vw;
-    
-}
-.hiddenFooter input{
-    margin: .5em 0;
-}
-
-.mainFooter{
+footer h2{
     text-align: center;
-    padding: 0.5em 7em;
-    background-color: #202229;
-    bottom: -15em;
-    width: 40vw;
-    
-}
-.mainFooter p{
-    color: #dadff7;
-    padding: 1em 3em;
-    font-size: 1.2em;
 }
 footer .copyright{
     text-align: center;
     color: #9ac6ff;
     position: relative;
     bottom: -1.5em;
-}
-.footer a{
-    
 }
 .iconBox{
     padding: 1em 0;
@@ -384,12 +342,19 @@ footer .copyright{
     gap: .2em;
 }
 
-img{
-    width: 3%;
+footer a{
+    width: 2%;
     height: 3vh;
     background-color: #45a049b4;
-    padding: 0.5em;
+    padding: .2em;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconBox img{
+    width: 70%;
+    max-width: 80%;
 }
 
 @media screen and (max-width:900px) {

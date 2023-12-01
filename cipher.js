@@ -140,7 +140,7 @@ function dencrypt() {
 function changeModeDe() {
     document.getElementById('container1').innerHTML = `
      <div id="caesarCipherSection" class="main-content">
-                <h1>Vigenere Cipher</h1>
+                <h1>Caesar Cipher</h1>
                 <div class="chooseMode">
                    <button title="Change mode" onclick="changeModeEn()">Mode</button>                 
                 </div>
