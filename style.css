@@ -396,6 +396,16 @@ footer a{
         top: 4.5em;
 
     }
+    footer a{
+    width: 3%;
+    height: 3vh;
+    background-color: #45a049b4;
+    padding: .2em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
 
 
