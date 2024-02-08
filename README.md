@@ -27,14 +27,14 @@ Welcome to the Cipher Calculator web application! This tool allows you to encryp
 
 ![Cipher Calculator Demo](link_to_demo_gif_or_screenshot.gif)
 
-[Live Demo](#) 
+[Live Demo](https://ciphercalculator.netlify.app/) 
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/cipher-calculator.git
+   git clone https://github.com/Henryle-hd/cipherCalculator-.git
 
 Navigate to the project directory:
 
