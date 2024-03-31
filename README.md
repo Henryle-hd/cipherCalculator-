@@ -71,6 +71,7 @@ Here are some examples of using the Cipher Calculator:
     Output: HELLO
 
 Contributing
+
 We welcome contributions! If you want to enhance the Cipher Calculator or fix issues, please follow the contribution guidelines.
 
 
